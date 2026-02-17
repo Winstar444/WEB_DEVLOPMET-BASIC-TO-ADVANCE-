@@ -1,0 +1,9 @@
+
+let s = '{"city":"Delhi"}';   // string
+let o = JSON.parse(s);       // object
+
+o.city;  // Delhi ✅
+
+//   Before JSON.parse(), API data is treated as a string, so JavaScript cannot read properties like name.
+
+// After JSON.parse(), the data becomes a JavaScript object, so JS can access name and return “Shubham”.

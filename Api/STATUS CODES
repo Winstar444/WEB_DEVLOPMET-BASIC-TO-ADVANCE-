@@ -1,0 +1,35 @@
+ IT IS LIKE IT COMES WHEN API TESTING IS DONE IT SHOWES STATUS HOW IT IS WORKING 
+
+✅ 2xx – Success
+
+200 OK → Request successful
+
+201 Created → Data successfully created
+
+204 No Content → Success but no response body
+___________________________________________________
+
+❌ 4xx – Client Errors
+
+400 Bad Request → Invalid request
+
+401 Unauthorized → Login required
+
+403 Forbidden → Access denied
+
+404 Not Found → Resource not found
+
+409 Conflict → Data conflict
+
+429 Too Many Requests → Rate limit exceeded
+_________________________________________________
+
+💥 5xx – Server Errors
+
+500 Internal Server Error → Server crash
+
+502 Bad Gateway → Invalid server response
+
+503 Service Unavailable → Server down / busy
+
+504 Gateway Timeout → Server took too long

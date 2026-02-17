@@ -1,0 +1,24 @@
+// Step 1: JavaScript object
+let user = {
+  name: "Shubham",
+  age: 21
+};
+
+// Step 2: Object → String
+let userString = JSON.stringify(user);
+
+// Step 3: Store string
+localStorage.setItem("userData", userString);
+
+// Step 4: Get string back
+let storedData = localStorage.getItem("userData");
+
+// Step 5: String → Object
+let userObject = JSON.parse(storedData);
+
+// Step 6: Use data
+console.log(userObject.name); // Shubham
+  
+//  WE USE STRINGIFY AND PARSE TOGETHER BECAUSE API AND STORAGE WORKS WITH STRINGS 
+//  JSON CONVERT STRING INTO OBJECT TO USE THE DATA.
+//   SO WE HVAE TO USE THEM BOTH EVRYTIME 
