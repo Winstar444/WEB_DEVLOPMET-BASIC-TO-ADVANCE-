@@ -1,5 +1,8 @@
-it is  like query  which we add in url like if one google we want open google inside that open youtube it will be like quer examples
+Query Parameters in URLs
 
+Query parameters are key-value pairs added to a URL after a question mark (?) to pass data to the server. Multiple parameters are separated by ampersands (&).
+
+Example:
 https://www.google.com/search?q=ajax+javascript
- in this after google there is query like open ajax for js.
-  
+
+In this URL, the query parameter 'q' has the value 'ajax+javascript', which tells Google to search for "ajax javascript".  
