@@ -1,0 +1,33 @@
+FROM ubuntu:latest
+
+# CONSOLE  IT IS A COMMAND LINE USED TO WORK WITH COMPUTER
+# SHELL IS A PROGRAM THAT RUNS ON TERMINAL. EXAMPLE OF THIS IS BASH 
+
+# BASH :- BASH IS COMMAND LANGUAGE THAT CAN BE USED ON LINUX AND  TERMINAL
+
+#  ls = list all files inside folder
+#  pwd = it tells where you are in the file system it gives path where am i working 
+#  clear = it clears the terminal screen
+#  cd = change directory
+#  mkdir = make directory
+# touch = create a new file (in linux it can work as a command to create a new file)
+# cat = it is used to read the content of a file
+# rm = it is used to remove a file or directory
+# cp = it is used to copy a file or directory
+# mv = it is used to move a file or directory
+# / = it is used to access the root directory
+# ~ = it is used to access the home directory
+
+
+# flags:- basically flags are used to modify the behavior of a command. For example, if we want to list all the files in a directory including hidden files we can use the flag -a with the ls command like this: ls -a
+# man ls - give info about ls command
+# if we write man infront of any comand it will give us the manual of that command and it will also give us the flags that we can use with that command
+
+
+
+#  Risky command to run the terminal commands:( if you run this you cant find the data inside the folder because it will be deleted permanently)
+
+
+#  rm :-remove a file or directory
+#  rmdir :-remove an empty directory
+#  rm -rf :-remove a file or directory and its contents recursively without asking for confirmation
